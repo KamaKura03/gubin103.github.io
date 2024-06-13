@@ -1,0 +1,22 @@
+# 忽略所有的临时文件、日志和操作系统文件
+*.log
+*.tmp
+*.bak
+*.swp
+*.DS_Store
+
+# 忽略所有的IDE/编辑器特定文件
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# 忽略Node.js依赖
+node_modules/
+
+# 忽略构建输出
+dist/
+build/
+
+# 忽略环境变量文件
+.env
